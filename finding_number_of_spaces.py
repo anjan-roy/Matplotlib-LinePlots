@@ -1,0 +1,5 @@
+s=input("Enter the string:\n")
+p=eval(s)
+s1=p.replace(' ','')
+space=len(p)-len(s1)
+print("The number of spcaes in given string is {}".format(space))
