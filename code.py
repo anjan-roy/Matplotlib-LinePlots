@@ -1,0 +1,11 @@
+s='abcdeabf'
+print(s.find('f'))
+print(s.find('p'))
+print(s.rfind('a'))
+print(s.rfind('v'))
+print(s.find('d',1,4))
+print(s.rfind('f',2,20))
+print(s.find('a',0,200))
+print(s.index('c',1,8))
+print(s.rindex('f'))
+print(s.index('b',-8,-1))
